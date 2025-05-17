@@ -3,6 +3,8 @@
     setTimeout( () => {
         document.getElementsByClassName('blogger')[0].style.display = 'none';
         document.getElementsByClassName('copyright')[0].innerHTML = `&copy; Phil Gonzalez | ${new Date().getFullYear()}`;
+        document.getElementById("HTML2").classList.replace("HTML", "BlogArchive")
+        document.getElementById("HTML2").id = "BlogArchive2"
 
         const myFunction = (x) => {
           if (x.matches) {
